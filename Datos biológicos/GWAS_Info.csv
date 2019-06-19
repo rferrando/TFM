@@ -1,0 +1,153 @@
+PubMed,Trait,SNP rs,Context,Gene,Gene ID,Gene 2,Gene ID 2,Chromosome,Location,P-Value,Source,Population,OrherGenes,Details
+20601957,Endometriosis,10965235,intron,CDKN2B-AS1,100048912,CDKN2B-AS1,100048912,9,22115106,6E-12,PheGenI,East Asian|European,,
+20601957,Endometriosis,16826658,intergenic,WNT4,54361,MIR4418,100616433,1,22159378,0.000002,PheGenI,East Asian|European,,
+20844546,Endometriosis,6542095,intergenic,CKAP2L,150468,IL1A,3552,2,112771606,0.000003,PheGenI,East Asian|European,,
+20844546,Endometriosis,801112,intergenic,FTH1P2,2497,ISCA1P2,100288517,1,228860875,0.000005,PheGenI,East Asian|European,RHOU,
+21151130,Endometriosis,12700667,intergenic,UBA52P1,7312,MIR148A,406940,7,25862019,0.000000001,PheGenI,European,AC005165.1 - AC010719.1,
+21151130,Endometriosis,2738113,intergenic,DEFA10P,449493,DEFA1,1667,8,6971563,0.0000003,PheGenI,European,,
+21151130,Endometriosis,12024204,intergenic,ADH5P2,343296,HMGB1P18,646526,1,79777316,0.000006,PheGenI,European,AC099671.1,
+23104006,Endometriosis,10859871,intergenic,MIR3685,100500802,RPL29P26,643531,12,95318100,5E-13,PheGenI,East Asian|European,VEZT,
+23104006,Endometriosis,7521902,intergenic,WNT4,54361,MIR4418,100616433,1,22164231,3E-11,PheGenI,East Asian|European,,
+23104006,Endometriosis,7739264,intergenic,UQCRFS1P3,100130994,ID4,3400,6,19785357,4E-10,PheGenI,East Asian|European,AL022068.1,
+23104006,Endometriosis,1537377,intergenic,UBA52P6,100130239,DMRTA1,63951,9,22169701,0.000000002,PheGenI,East Asian|European,CDKN2B-AS1,
+23104006,Endometriosis,12700667,intergenic,UBA52P1,7312,MIR148A,406940,7,25862019,0.000000004,PheGenI,East Asian|European,AC005165.1 - AC010719.1,
+23104006,Endometriosis,13394619,splice-3,GREB1,9687,GREB1,9687,2,11587381,0.000000006,PheGenI,East Asian|European,,
+23104006,Endometriosis,4141819,intergenic,ETAA1,54465,C1D,10438,2,67637543,0.00000009,PheGenI,East Asian|European,AC007422.2,
+23472165,Endometriosis,2235529,intron,WNT4,54361,WNT4,54361,1,22123994,0.000000003,PheGenI,European,ZBTB40,
+23472165,Endometriosis,10917151,intergenic,CDC42,998,WNT4,54361,1,22096228,0.000000007,PheGenI,European,,
+23472165,Endometriosis,4654783,intergenic,CDC42,998,WNT4,54361,1,22113027,0.000000007,PheGenI,European,,
+23472165,Endometriosis,2235529,intron,WNT4,54361,WNT4,54361,1,22123994,0.000000007,PheGenI,European,,
+23472165,Endometriosis,6757804,intergenic,RND3,390,FABP5P10,344332,2,150779318,0.00000006,PheGenI,European,RBM43,
+23472165,Endometriosis,6907340,nearGene-3,LOC100506885,100506885,LOC100506885,100506885,6,19803537,0.0000002,PheGenI,European,"RNF144B, ID4",
+23472165,Endometriosis,10508881,intergenic,LINC00841,283033,CXCL12,6387,10,44046117,0.0000004,PheGenI,European,"HNRNPA3P1, C10orf142",
+23472165,Endometriosis,10917151,intergenic,CDC42,998,WNT4,54361,1,22096228,0.0000008,PheGenI,European,,
+23472165,Endometriosis,4654783,intergenic,CDC42,998,WNT4,54361,1,22113027,0.0000008,PheGenI,European,,
+23472165,Endometriosis,2235529,intron,WNT4,54361,WNT4,54361,1,22123994,0.0000008,PheGenI,European,,
+23472165,Endometriosis,16826658,intergenic,WNT4,54361,MIR4418,100616433,1,22159378,0.0000008,PheGenI,European,,
+23472165,Endometriosis,7521902,intergenic,WNT4,54361,MIR4418,100616433,1,22164231,0.0000008,PheGenI,European,,
+23472165,Endometriosis,10975519,cds-synon,IL33,90865,IL33,90865,9,6253571,0.0000009,PheGenI,European,,
+23472165,Endometriosis,2270221,intron,PDE1C,5137,PDE1C,5137,7,31864413,0.000001,PheGenI,European,,
+23472165,Endometriosis,12449465,nearGene-3,OR1G1,8390,OR1G1,8390,17,3126260,0.000001,PheGenI,European,OR1D2,
+23472165,Endometriosis,3596,ncRNA,VEZT,55591,VEZT,55591,12,95302644,0.000002,PheGenI,European,,
+23472165,Endometriosis,1268843,intergenic,CYB5AP3,1531,MOAP1,64112,14,93178034,0.000003,PheGenI,European,ITPK1,
+23472165,Endometriosis,10917151,intergenic,CDC42,998,WNT4,54361,1,22096228,0.000006,PheGenI,European,,
+23472165,Endometriosis,4654783,intergenic,CDC42,998,WNT4,54361,1,22113027,0.000006,PheGenI,European,,
+23472165,Endometriosis,2235529,intron,WNT4,54361,WNT4,54361,1,22123994,0.000006,PheGenI,European,,
+23472165,Endometriosis,7816936,intergenic,RSL24D1P7,100129861,RPL23AP54,100271466,8,5213890,0.000006,PheGenI,European,"LOC100287015, CSMD1",
+23472165,Endometriosis,11193561,intergenic,RNA5SP326,100873592,MAPKAPK5P1,100533849,10,107614626,0.000006,PheGenI,European,SORCS1,
+23472165,Endometriosis,10431397,intron,KSR2,283455,KSR2,283455,12,117668389,0.000007,PheGenI,European,,
+27506219,Endometriosis,4966038,intron,IGF1R,3480,IGF1R,3480,15,98903403,0.000000002,PheGenI,East Asian,,
+27506219,Endometriosis,11692361,intron,MEIS1,4211,MEIS1,4211,2,66496567,0.0000004,PheGenI,East Asian,,
+27506219,Endometriosis,10256972,intron,C7orf50,84310,C7orf50,84310,7,999367,0.000003,PheGenI,East Asian,,
+27506219,Endometriosis,2276314,missense,C18orf21,83608,C18orf21,83608,18,35977503,0.000007,PheGenI,East Asian,,
+28333195,Endometriosis,6908034,intron_variant,ID4,,AL022068.1,,6,19773699,0.0000005,GWASCatalog,European,,ID4
+28333195,Endometriosis,116175374,intron_variant,CAPN14,,CAPN14,,2,31202319,0.0000006,GWASCatalog,European,,CAPN14
+28333195,Endometriosis,138913144,intron_variant,LAMC3,,LAMC3,,9,131022553,0.0000006,GWASCatalog,European,,LAMC3
+28881265,Endometriosis,1128934,missense_variant,BEND5,,AGBL4,,1,48758912,0.0000006,GWASCatalog,European,,BEND5
+28881265,Endometriosis,1009077,intergenic_variant,PDE5A,, LINC01365,,4,119706266,0.000004,GWASCatalog,European,,PDE5A
+28881265,Endometriosis,1432089,intergenic_variant,NR,,AC097486.1 - RNU6ATAC13P,,4,170869637,0.00000006,GWASCatalog,European,,AC097486.1 - RNU6ATAC13P
+28881265,Endometriosis,11132055,intergenic_variant,NR,,LINC02500 - AC093840.1,,4,181401652,0.00000008,GWASCatalog,European,,LINC02500 - AC093840.1
+28881265,Endometriosis,458649,intergenic_variant,NR,,LINC02063 - AC106799.3,,5,4269377,0.000006,GWASCatalog,European,,LINC02063 - AC106799.3
+28881265,Endometriosis,62355900,regulatory_region_variant,NR,,C5orf67 - AC008940.1,,5,56756868,0.00000005,GWASCatalog,European,,C5orf67 - AC008940.1
+28881265,Endometriosis,644045,intron_variant,"C2, TSBP1-AS1, HLA-DRA",,C2,,6,31916180,0.00000002,GWASCatalog,European,,"C2, TSBP1-AS1, HLA-DRA"
+28881265,Endometriosis,2300795,intron_variant,NR,,COL12A1,,6,75115465,0.0000005,GWASCatalog,European,,COL12A1
+28881265,Endometriosis,1750034,intron_variant,NR,,SYNJ2,,6,158059112,0.0000007,GWASCatalog,European,,SYNJ2
+28881265,Endometriosis,75801644,missense_variant,NR,,GPNMB,,7,23266522,8E-10,GWASCatalog,European,,GPNMB
+28881265,Endometriosis,7781172,intergenic_variant,NR,,CDC14C - AC091730.1,,7,49030398,0.000001,GWASCatalog,European,,CDC14C - AC091730.1
+28881265,Endometriosis,16901004,intergenic_variant,NR,,SOD1P3 - AC024681.2,,8,125958758,0.0000009,GWASCatalog,European,,SOD1P3 - AC024681.2
+28881265,Endometriosis,2929986,intron_variant,NR,,CCN4 ,,8,133199283,0.000004,GWASCatalog,European,,CCN4 
+28881265,Endometriosis,6578185,stop_lost,NR,,"MROH5, MROH5",,8,141447953,0.000002,GWASCatalog,European,,"MROH5, MROH5"
+28881265,Endometriosis,17277593,intergenic_variant,NR,,LINC00583 - PES1P2,,9,13950594,0.000005,GWASCatalog,European,,LINC00583 - PES1P2
+28881265,Endometriosis,6540,3_prime_UTR_variant,NR,,PSMD13,,11,252649,0.000003,GWASCatalog,European,,PSMD13
+28881265,Endometriosis,2615943,intron_variant,NR,,KIAA1549L,,11,33417589,0.000007,GWASCatalog,European,,KIAA1549L
+28881265,Endometriosis,7942368,intergenic_variant,NR,,GUCY2EP - AP003119.1,,11,76754318,0.000000009,GWASCatalog,European,,GUCY2EP - AP003119.1
+28881265,Endometriosis,427244,intron_variant,NR,,RFLNA,,12,124120741,0.0000004,GWASCatalog,European,,RFLNA
+28881265,Endometriosis,10131751,intergenic_variant,NR,,AL390334.1 - BNIP3P1,,14,28212010,0.0000009,GWASCatalog,European,,AL390334.1 - BNIP3P1
+28881265,Endometriosis,1380131,intron_variant,NR,,"AL163953.1, AL365295.1",,14,53606140,0.000009,GWASCatalog,European,,"AL163953.1, AL365295.1"
+28881265,Endometriosis,10129516,intergenic_variant,"PARP1P2, RHOJ",,AL137191.1 - RHOJ,,14,63133372,5E-16,GWASCatalog,European,,"PARP1P2, RHOJ"
+28881265,Endometriosis,7149767,intron_variant,NR,,MARK3,,14,103397208,0.000007,GWASCatalog,European,,MARK3
+28881265,Endometriosis,74781061,3_prime_UTR_variant,NR,,ARID3B,,15,74595855,0.000001,GWASCatalog,European,,ARID3B
+28881265,Endometriosis,12943477,intron_variant,NR,,COX10-AS1,,17,13912543,0.000006,GWASCatalog,European,,COX10-AS1
+28881265,Endometriosis,2663839,intergenic_variant,NR,,ATP8B1 - RSL24D1P11,,18,57818282,0.000009,GWASCatalog,European,,ATP8B1 - RSL24D1P11
+28881265,Endometriosis,144824657,missense_variant,NR,,BSG,,19,577782,0.000001,GWASCatalog,European,,BSG
+28881265,Endometriosis,11085835,intron_variant,NR,,CACNA1A,,19,13221196,0.0000003,GWASCatalog,European,,CACNA1A
+28881265,Endometriosis,10419023,intron_variant,NR,,GRIN2D,,19,48427965,0.0000006,GWASCatalog,European,,GRIN2D
+28881265,Endometriosis,2327293,intergenic_variant,NR,,SNAP25-AS1 - SDAD1P2,,20,10385750,0.000007,GWASCatalog,European,,SNAP25-AS1 - SDAD1P2
+28881265,Endometriosis,6075004,intergenic_variant,NR,,MACROD2 - PPIAP17,,20,16086119,0.000009,GWASCatalog,European,,MACROD2 - PPIAP17
+28881265,Endometriosis,116250606,missense_variant,NR,,CALHM3,,10,103473496,0.0000001,GWASCatalog,European,,CALHM3
+28333195,Endometriosis,12700667,intergenic_variant,NFE2L3,,AC005165.1 - AC010719.1,,7,25862019,0.0000006,GWASCatalog,European,,NFE2L3
+28333195,Endometriosis,55938609,5_prime_UTR_variant,WNT4,,"WNT4, AL445253.1",,1,22143958,0.0000006,GWASCatalog,European,,WNT4
+28333195,Endometriosis,60966186,regulatory_region_variant,DEFA1,,DEFA10P - DEFA1,,8,6973682,0.000001,GWASCatalog,European,,DEFA1
+28333195,Ovarian disease with few adhesions,144240142,intron_variant,MAP3K4,,MAP3K4,,6,161081992,0.00000006,GWASCatalog,European,,MAP3K4
+28333195,Ovarian disease with few adhesions,200922190,intron_variant,CDC73,,CDC73,,1,193234362,0.0000002,GWASCatalog,European,,CDC73
+28333195,Ovarian disease with few adhesions,855965,intergenic_variant,EMX2,,AC005871.1,,10,117684248,0.0000004,GWASCatalog,European,,EMX2
+28333195,Ovarian disease with few adhesions,113850637,intergenic_variant,ALCAM,,RAP1BP2 - AC091804.1,,3,104131556,0.0000008,GWASCatalog,European,,ALCAM
+28333195,Deep ovarian and/or rectovaginal disease with dense adhesions,12700667,intergenic_variant,NFE2L3,,AC005165.1 - AC010719.1,,7,25862019,0.000000002,GWASCatalog,European,,NFE2L3
+28333195,Deep ovarian and/or rectovaginal disease with dense adhesions,517875,intron_variant,NAALADL2,,NAALADL2,,3,174633096,0.0000001,GWASCatalog,European,,NAALADL2
+28333195,Deep ovarian and/or rectovaginal disease with dense adhesions,7041895,regulatory_region_variant,CDKN2B-AS1,,CDKN2B-AS1 - AL157937.1,,9,22162795,0.0000001,GWASCatalog,European,,CDKN2B-AS1
+28333195,Deep ovarian and/or rectovaginal disease with dense adhesions,1250258,intron_variant,FN1,,FN1,,2,215435462,0.00000003,GWASCatalog,European,,FN1
+28333195,Deep ovarian and/or rectovaginal disease with dense adhesions,71415016,intergenic_variant,C14orf132,,TUNAR - AL137190.1,,14,95977621,0.0000003,GWASCatalog,European,,C14orf132
+28333195,Deep ovarian and/or rectovaginal disease with dense adhesions,62469231,intron_variant,FOXP2,,FOXP2,,7,114391119,0.0000005,GWASCatalog,European,,FOXP2
+28333195,Deep ovarian and/or rectovaginal disease with dense adhesions,3920498,intergenic_variant,WNT4,,AL445253.1 - MIR4418,,1,22166394,0.0000006,GWASCatalog,European,,WNT4
+28333195,Deep ovarian and/or rectovaginal disease with dense adhesions,6908034,intron_variant,ID4,,AL022068.1,,6,19773699,0.0000007,GWASCatalog,European,,ID4
+28333195,Deep ovarian and/or rectovaginal disease with dense adhesions,12455952,intergenic_variant,CDH20,,AC113137.1 - CDH20,,18,61173285,0.000001,GWASCatalog,European,,CDH20
+28333195,Deep ovarian and/or rectovaginal disease with dense adhesions,138913144,intron_variant,LAMC3,,LAMC3,,9,131022553,0.000001,GWASCatalog,European,,LAMC3
+28537267,Endometriosis,12037376,intron_variant,WNT4,,WNT4,,1,22135618,0.000002,GWASCatalog,"European, East Asian",,WNT4
+28537267,Endometriosis,4762326,intron_variant,VEZT,,VEZT,,12,95275175,0.000004,GWASCatalog,"European, East Asian",,VEZT
+28537267,Endometriosis,12037376,intron_variant,WNT4,,WNT4,,1,22135618,9E-17,GWASCatalog,"European, East Asian",,WNT4
+28537267,Endometriosis,11674184,intron_variant,GREB1,,GREB1,,2,11581409,3E-17,GWASCatalog,"European, East Asian",,GREB1
+28537267,Endometriosis,6546324,intron_variant,ETAA1,,AC007422.2,,2,67629358,0.00000003,GWASCatalog,"European, East Asian",,ETAA1
+28537267,Endometriosis,10167914,regulatory_region_variant,IL1A,,IL1A - IL1B,,2,112805784,0.000000001,GWASCatalog,"European, East Asian",,IL1A
+28537267,Endometriosis,1903068,intergenic_variant,KDR,,KDR - RN7SL822P,,4,55142310,1E-11,GWASCatalog,"European, East Asian",,KDR
+28537267,Endometriosis,760794,intron_variant,ID4,,AL022068.1,,6,19790329,2E-10,GWASCatalog,"European, East Asian",,ID4
+28537267,Endometriosis,12700667,intergenic_variant,NR,,AC005165.1 - AC010719.1,,7,25862019,9E-10,GWASCatalog,"European, East Asian",,AC005165.1 - AC010719.1
+28537267,Endometriosis,1537377,intergenic_variant,CDKN2B-AS1,,CDKN2B-AS1 - AL157937.1,,9,22169701,1E-10,GWASCatalog,"European, East Asian",,CDKN2B-AS1
+28537267,Endometriosis,4762326,intron_variant,VEZT,,VEZT,,12,95275175,0.000000002,GWASCatalog,"European, East Asian",,VEZT
+28537267,Endometriosis,1971256,intron_variant,CCDC170,,CCDC170,,6,151494876,0.00000004,GWASCatalog,"European, East Asian",,CCDC170
+28537267,Endometriosis,71575922,intron_variant,SYNE1,,SYNE1,,6,152232879,0.00000002,GWASCatalog,"European, East Asian",,SYNE1
+28537267,Endometriosis,74485684,intergenic_variant,FSHB,,AL358944.1 - FSHB,,11,30220740,0.00000002,GWASCatalog,"European, East Asian",,FSHB
+28537267,Endometriosis,77294520,intron_variant,GREB1,,GREB1,,2,11520829,1E-12,GWASCatalog,"European, East Asian",,GREB1
+28537267,Endometriosis,2206949,intron_variant,ESR1,,ESR1,,6,151716421,0.0000003,GWASCatalog,"European, East Asian",,ESR1
+28537267,Endometriosis,17803970,intron_variant,SYNE1,,SYNE1,,6,152232583,0.00000007,GWASCatalog,"European, East Asian",,SYNE1
+28537267,Endometriosis,10757272,intron_variant,CDKN2B-AS1,,CDKN2B-AS1,,9,22088261,0.0000003,GWASCatalog,"European, East Asian",,CDKN2B-AS1
+28537267,Endometriosis,1448792,intergenic_variant,NR,,DMRTA1 - LINC01239,,9,22641634,0.0000002,GWASCatalog,"European, East Asian",,DMRTA1 - LINC01239
+28537267,Endometriosis,12037376,intron_variant,WNT4,,WNT4,,1,22135618,1E-12,GWASCatalog,"European, East Asian",,WNT4
+28537267,Endometriosis,10167914,regulatory_region_variant,IL1A,,IL1A - IL1B,,2,112805784,0.00000005,GWASCatalog,"European, East Asian",,IL1A
+28537267,Endometriosis,11674184,intron_variant,GREB1,,GREB1,,2,11581409,3E-14,GWASCatalog,"European, East Asian",,GREB1
+28537267,Endometriosis,6546324,intron_variant,ETAA1,,AC007422.2,,2,67629358,0.0000003,GWASCatalog,"European, East Asian",,ETAA1
+28537267,Endometriosis,77294520,intron_variant,GREB1,,GREB1,,2,11520829,1E-12,GWASCatalog,"European, East Asian",,GREB1
+28537267,Endometriosis,1903068,intergenic_variant,KDR,,KDR - RN7SL822P,,4,55142310,2E-11,GWASCatalog,"European, East Asian",,KDR
+28537267,Endometriosis,17803970,intron_variant,SYNE1,,SYNE1,,6,152232583,0.0000001,GWASCatalog,"European, East Asian",,SYNE1
+28537267,Endometriosis,1971256,intron_variant,CCDC170,,CCDC170,,6,151494876,0.0000001,GWASCatalog,"European, East Asian",,CCDC170
+28537267,Endometriosis,71575922,intron_variant,SYNE1,,SYNE1,,6,152232879,0.00000002,GWASCatalog,"European, East Asian",,SYNE1
+28537267,Endometriosis,760794,intron_variant,ID4,,AL022068.1,,6,19790329,0.00000007,GWASCatalog,"European, East Asian",,ID4
+28537267,Endometriosis,12700667,intergenic_variant,NR,,AC005165.1 - AC010719.1,,7,25862019,0.00000002,GWASCatalog,"European, East Asian",,AC005165.1 - AC010719.1
+28537267,Endometriosis,10757272,intron_variant,CDKN2B-AS1,,CDKN2B-AS1,,9,22088261,0.000006,GWASCatalog,"European, East Asian",,CDKN2B-AS1
+28537267,Endometriosis,1448792,intergenic_variant,NR,,DMRTA1 - LINC01239,,9,22641634,0.0000001,GWASCatalog,"European, East Asian",,DMRTA1 - LINC01239
+28537267,Endometriosis,1537377,intergenic_variant,CDKN2B-AS1,,CDKN2B-AS1 - AL157937.1,,9,22169701,0.00000002,GWASCatalog,"European, East Asian",,CDKN2B-AS1
+28537267,Endometriosis,74485684,intergenic_variant,FSHB,,AL358944.1 - FSHB,,11,30220740,0.00000003,GWASCatalog,"European, East Asian",,FSHB
+28537267,Endometriosis,4762326,intron_variant,VEZT,,VEZT,,12,95275175,0.000001,GWASCatalog,"European, East Asian",,VEZT
+29608257,Endometriosis or endometrial cancer (pleiotropy),6782972,intron_variant,NR,,AC092422.1,,3,24922859,0.000000003,GWASCatalog,European,,AC092422.1
+29608257,Endometriosis or endometrial cancer (pleiotropy),10008492,intergenic_variant,"KLF3, TLR10",,RNA5SP158 - TLR10,,4,38764099,0.000002,GWASCatalog,European,,"KLF3, TLR10"
+29608257,Endometriosis or endometrial cancer (pleiotropy),9349553,intron_variant,TFAP2D,,TFAP2D,,6,50747694,0.000005,GWASCatalog,European,,TFAP2D
+29608257,Endometriosis or endometrial cancer (pleiotropy),2475335,intron_variant,PTPRD,,PTPRD,,9,10260263,0.000002,GWASCatalog,European,,PTPRD
+29608257,Endometriosis or endometrial cancer (pleiotropy),2218868,intron_variant,NR,,OR9Q1,,11,58158505,0.00000004,GWASCatalog,European,,OR9Q1
+29608257,Endometriosis or endometrial cancer (pleiotropy),523332,regulatory_region_variant,NR,,ARHGAP42 - PGR,,11,101003588,0.000005,GWASCatalog,European,,ARHGAP42 - PGR
+29608257,Endometriosis or endometrial cancer (pleiotropy),2278868,missense_variant,NR,,SKAP1,,17,48184809,0.0000005,GWASCatalog,European,,SKAP1
+29608257,Endometriosis or endometrial cancer (pleiotropy),9915454,intron_variant,NR,,AC004805.1,,17,65633120,0.000005,GWASCatalog,European,,AC004805.1
+23177411,Endometriosis,3798573,intron_variant,ESR1,,,,,,0.009,Paper,East Asian,,
+24676469,Endometriosis,7521902,intergenic,WNT4,,,,1,22490474,1.80E-15,Paper,"European, East Asian",,B – III/IV (much reduced in A)
+24676470,Endometriosis,10859871,intergenic,"VEZT
+",,,,12,95711626,4.80E-15,Paper,"European, East Asian",,A – I/II B – III/IV
+24676471,Endometriosis,7739264,intergenic,ID4,,,,6,19785338,6.20E-10,Paper,"European, East Asian",,B – III/IV
+24676472,Endometriosis,12700667,intergenic,NFE2L3,,,,7,7p15.2 ,1.60E-09,Paper,"European, East Asian",,B – III/IV
+24676473,Endometriosis,1537377,intergenic,CDKN2B-AS1,,,,9,22169450,1.50E-08,Paper,"European, East Asian",,B – III/IV
+24676474,Endometriosis,13394619,intron,GREB1,,,,2,11727257,4.50E-08,Paper,"European, East Asian",,B – III/IV
+24676475,Endometriosis,4141819,intergenic,ETAA1,,,,2,2p14,9.20E-08,Paper,"European, East Asian",,B – III/IV
+24676476,Endometriosis,1250248,intron,FN1,,,,2,216286843,8.00E-08,Paper,"European, East Asian",,B – III/IV
+25336714,Endometriosis,6542095,intergenic,IL1A,,,,,,3.43E-08,Paper,European,,"A – I/II B – III/IV
+Japanese study - suggestively associated with endometriosis risk: rs6542095, rs11677416, rs3783550, rs3783525, rs3783553, rs2856836, rs1304037 and rs17561"
+28901453,Endometriosis,7521902,intergenic,WNT4,,,,,,,Paper,European,,B – III/IV
+28901454,Endometriosis,10859871,intergenic,VEZT,,,,,,,Paper,European,,A – I/II
+28901455,Endometriosis,11031006,,FSHB,,,,,,,Paper,European,,A – I/II
+27513026,Endometriosis,6734792,intergenic,RND3,,,,2,151624632,2.20E-06,Paper,European,,
