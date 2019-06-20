@@ -8,4 +8,5 @@ En la carpeta datos biologicos, se encuentra:
 - *Fichero con farmacos relacionados con endometriosis (seed drugs)*: seed_drugs_targets_endometriosis.csv
 - *Fichero con farmacos que interactuan con los fármacos de endometriosis (seed + interacting drugs)*: approved_drugs_endometriosis_reduced.csv
 - *Fichero con 1502 genes diana (target genes)*: Drugs_by_gene_TA.csv
-- *Fichero con todas las drogas aprobadas en DrugBank*: drugbank_output.csv
+- *Fichero con todas los fármacos aprobados en DrugBank*: drugbank_output.csv
+- *Fichero con todas los fármacos aprobados que tienen como diana a algún gen de enfermedad.*: drugs_E.csv
