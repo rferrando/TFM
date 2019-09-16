@@ -23,9 +23,11 @@ En la carpeta *Data*, se encuentra:
 - *Fichero con las variantes y sus atributos de los genes diana de los fármacos priorizados*: Variants_filtered_by_Phenotype.ods
 
 En la carpeta *Networks*, se encuentra una subcarpeta por cada subgrafo generado que contiene:
+
 **Información sobre el subgrafo generado con *K* vecinos, con K=0..5:** (carpeta *K*Neighbors)
 - *Fichero con los nodos y atributos del subgrafo*: ATTS_*K*Neighbors.csv
 - *Fichero con las relaciones y atributos del subgrafo*: ATTS_*K*Neighbors.csv
+
 **Información sobre los archivos de visualización de Cytoscape** (carpeta Cytoscape)
 - *Red contexto molecular de la endometriosis*: All_Neighbors_Networks.cys
 - *Red contexto farmacológico de la endometriosis*: Drug_network.cys
