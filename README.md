@@ -17,10 +17,13 @@ En la carpeta *Data*, se encuentra:
 **Información sobre el interactoma de la base de datos KEGG:** (carpeta KEGG Interactome)
 - *Fichero con los nodos y atributos del interactoma*: ATTS_genes.csv
 - *Fichero con las relaciones y atributos del interactoma*: SIF_genes.csv
+- *Fichero con los nodos y atributos de la info de pathways*: ATTS_pathways.csv
+- *Fichero con las relaciones y atributos de la info de pathways*: SIF_pathways.csv
 - *Fichero con todos los dataframes correspondientes a objetos KEGG (Entry, Relation, Pathway, Reaction)*: en carpeta dataframes
 
 **Información sobre las variantes extraidas de la base de datos HGMD:** (carpeta HGMDVariants)
 - *Fichero con las variantes y sus atributos de los genes diana de los fármacos priorizados*: Variants_filtered_by_Phenotype.ods
+- *Fichero con los fenotipos de variantes priorizados*: Phen_priorizated.csv
 
 En la carpeta *Networks*, se encuentra una subcarpeta por cada subgrafo generado que contiene:
 
