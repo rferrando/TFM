@@ -32,7 +32,7 @@ En la carpeta ***Networks***, se encuentra una subcarpeta por cada subgrafo gene
 - *Fichero con las relaciones y atributos del subgrafo*: ATTS_*K*Neighbors.csv
 
 **Información sobre los archivos de visualización de Cytoscape** (carpeta Cytoscape)
-- *Red contexto molecular de la endometriosis*: All_Neighbors_Networks.cys
+- *Red contexto molecular de la endometriosis*: Red_final_2_vecinos.cys
 - *Red contexto farmacológico de la endometriosis*: Drug_network.cys
 - *Red con las variantes de los genes diana de los fármacos priorizados*: Variant_network.cys
 - *Red con los pathways del contexto molecular de la endometriosis*: Pathways.cys
