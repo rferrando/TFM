@@ -1,0 +1,136 @@
+[ {
+  "name" : "Default filter",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "REGEX",
+        "criterion" : "[I,E,S]",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "Tipo Gen"
+      }
+    }, {
+      "id" : "org.cytoscape.DegreeFilter",
+      "parameters" : {
+        "predicate" : "BETWEEN",
+        "criterion" : [ 34, 738 ],
+        "edgeType" : "ANY"
+      }
+    }, {
+      "id" : "org.cytoscape.TopologyFilter",
+      "parameters" : {
+        "predicate" : "GREATER_THAN_OR_EQUAL",
+        "distance" : 1,
+        "threshold" : 8,
+        "type" : "ALL"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "True",
+          "caseSensitive" : false,
+          "type" : "nodes",
+          "anyMatch" : true,
+          "columnName" : "disease"
+        }
+      } ]
+    } ]
+  } ]
+}, {
+  "name" : "Drogas con Degree > 8",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.DegreeFilter",
+      "parameters" : {
+        "predicate" : "BETWEEN",
+        "criterion" : [ 34, 136 ],
+        "edgeType" : "ANY"
+      }
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "REGEX",
+        "criterion" : "[I,E,S]",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "Tipo Gen"
+      }
+    } ]
+  } ]
+}, {
+  "name" : "Drogas con degree >= 35 en final y >= 8 en directa-TD",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "REGEX",
+        "criterion" : "[I,E,S]",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "Tipo Gen"
+      }
+    }, {
+      "id" : "org.cytoscape.TopologyFilter",
+      "parameters" : {
+        "predicate" : "GREATER_THAN_OR_EQUAL",
+        "distance" : 1,
+        "threshold" : 8,
+        "type" : "ANY"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "True",
+          "caseSensitive" : false,
+          "type" : "nodes",
+          "anyMatch" : true,
+          "columnName" : "disease"
+        }
+      }, {
+        "id" : "org.cytoscape.TopologyFilter",
+        "parameters" : {
+          "predicate" : "GREATER_THAN_OR_EQUAL",
+          "distance" : 1,
+          "threshold" : 1,
+          "type" : "ALL"
+        },
+        "transformers" : [ {
+          "id" : "org.cytoscape.ColumnFilter",
+          "parameters" : {
+            "predicate" : "CONTAINS",
+            "criterion" : "True",
+            "caseSensitive" : false,
+            "type" : "nodes",
+            "anyMatch" : true,
+            "columnName" : "disease"
+          }
+        } ]
+      } ]
+    }, {
+      "id" : "org.cytoscape.DegreeFilter",
+      "parameters" : {
+        "predicate" : "BETWEEN",
+        "criterion" : [ 35, 738 ],
+        "edgeType" : "ANY"
+      }
+    } ]
+  } ]
+} ]

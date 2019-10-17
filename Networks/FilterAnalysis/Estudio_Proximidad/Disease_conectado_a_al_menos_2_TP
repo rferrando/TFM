@@ -1,0 +1,986 @@
+[ {
+  "name" : "TS a 1 path de TP en network clusterizada+ TS conectado a mas de 1 disease",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "True",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "target"
+      }
+    }, {
+      "id" : "org.cytoscape.TopologyFilter",
+      "parameters" : {
+        "predicate" : "GREATER_THAN_OR_EQUAL",
+        "distance" : 1,
+        "threshold" : 1,
+        "type" : "ALL"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "True",
+          "caseSensitive" : false,
+          "type" : "nodes",
+          "anyMatch" : true,
+          "columnName" : "primary"
+        }
+      }, {
+        "id" : "org.cytoscape.CompositeFilter",
+        "parameters" : {
+          "type" : "ANY"
+        },
+        "transformers" : [ {
+          "id" : "org.cytoscape.ColumnFilter",
+          "parameters" : {
+            "predicate" : "CONTAINS",
+            "criterion" : "Overlap",
+            "caseSensitive" : false,
+            "type" : "nodes",
+            "anyMatch" : true,
+            "columnName" : "cl1.Status"
+          }
+        }, {
+          "id" : "org.cytoscape.ColumnFilter",
+          "parameters" : {
+            "predicate" : "CONTAINS",
+            "criterion" : "Cluster",
+            "caseSensitive" : false,
+            "type" : "nodes",
+            "anyMatch" : true,
+            "columnName" : "cl1.Status"
+          }
+        } ]
+      } ]
+    }, {
+      "id" : "org.cytoscape.TopologyFilter",
+      "parameters" : {
+        "predicate" : "GREATER_THAN_OR_EQUAL",
+        "distance" : 1,
+        "threshold" : 1,
+        "type" : "ALL"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "True",
+          "caseSensitive" : false,
+          "type" : "nodes",
+          "anyMatch" : true,
+          "columnName" : "disease"
+        }
+      } ]
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "DOES_NOT_CONTAIN",
+        "criterion" : "True",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "primary"
+      }
+    }, {
+      "id" : "org.cytoscape.CompositeFilter",
+      "parameters" : {
+        "type" : "ANY"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "Cluster",
+          "caseSensitive" : false,
+          "type" : "nodes",
+          "anyMatch" : true,
+          "columnName" : "cl1.Status"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "Overlap",
+          "caseSensitive" : false,
+          "type" : "nodes",
+          "anyMatch" : true,
+          "columnName" : "cl1.Status"
+        }
+      } ]
+    } ]
+  } ]
+}, {
+  "name" : "TS conectados a al menos 2 TP y al menos 1 Disease",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "True",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "target"
+      }
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "DOES_NOT_CONTAIN",
+        "criterion" : "True",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "primary"
+      }
+    }, {
+      "id" : "org.cytoscape.TopologyFilter",
+      "parameters" : {
+        "predicate" : "GREATER_THAN_OR_EQUAL",
+        "distance" : 1,
+        "threshold" : 1,
+        "type" : "ALL"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "True",
+          "caseSensitive" : false,
+          "type" : "nodes",
+          "anyMatch" : true,
+          "columnName" : "disease"
+        }
+      } ]
+    }, {
+      "id" : "org.cytoscape.TopologyFilter",
+      "parameters" : {
+        "predicate" : "GREATER_THAN_OR_EQUAL",
+        "distance" : 1,
+        "threshold" : 2,
+        "type" : "ALL"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "True",
+          "caseSensitive" : false,
+          "type" : "nodes",
+          "anyMatch" : true,
+          "columnName" : "primary"
+        }
+      } ]
+    } ]
+  } ]
+}, {
+  "name" : "Disease conectado a al menos 2 TP",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "True",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "disease"
+      }
+    }, {
+      "id" : "org.cytoscape.TopologyFilter",
+      "parameters" : {
+        "predicate" : "GREATER_THAN_OR_EQUAL",
+        "distance" : 1,
+        "threshold" : 2,
+        "type" : "ALL"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "True",
+          "caseSensitive" : false,
+          "type" : "nodes",
+          "anyMatch" : true,
+          "columnName" : "primary"
+        }
+      } ]
+    } ]
+  } ]
+}, {
+  "name" : "Interacting_with_priorizated_drugs",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "SI",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "Interact_with_priorizated_drugs"
+      }
+    } ]
+  } ]
+}, {
+  "name" : "BW_High",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ANY"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "MAPK1]",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "symbol2"
+      }
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "SRC",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "symbol2"
+      }
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "PRKCA",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "symbol2"
+      }
+    } ]
+  } ]
+}, {
+  "name" : "Priorizacion_genes_cluster",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "True",
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "disease"
+      }
+    }, {
+      "id" : "org.cytoscape.TopologyFilter",
+      "parameters" : {
+        "predicate" : "GREATER_THAN_OR_EQUAL",
+        "distance" : 1,
+        "threshold" : 1,
+        "type" : "ALL"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "True",
+          "caseSensitive" : false,
+          "type" : "nodes",
+          "anyMatch" : true,
+          "columnName" : "primary"
+        }
+      }, {
+        "id" : "org.cytoscape.CompositeFilter",
+        "parameters" : {
+          "type" : "ANY"
+        },
+        "transformers" : [ {
+          "id" : "org.cytoscape.ColumnFilter",
+          "parameters" : {
+            "predicate" : "CONTAINS",
+            "criterion" : "Overlap",
+            "caseSensitive" : false,
+            "type" : "nodes",
+            "anyMatch" : true,
+            "columnName" : "cl1.Status"
+          }
+        }, {
+          "id" : "org.cytoscape.ColumnFilter",
+          "parameters" : {
+            "predicate" : "CONTAINS",
+            "criterion" : "Cluster",
+            "caseSensitive" : false,
+            "type" : "nodes",
+            "anyMatch" : true,
+            "columnName" : "cl1.Status"
+          }
+        } ]
+      } ]
+    }, {
+      "id" : "org.cytoscape.CompositeFilter",
+      "parameters" : {
+        "type" : "ANY"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "Cluster",
+          "caseSensitive" : false,
+          "type" : "nodes",
+          "anyMatch" : true,
+          "columnName" : "cl1.Status"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "Overlap",
+          "caseSensitive" : false,
+          "type" : "nodes",
+          "anyMatch" : true,
+          "columnName" : "cl1.Status"
+        }
+      } ]
+    } ]
+  } ]
+}, {
+  "name" : "Default filter 1",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : null,
+        "criterion" : null,
+        "caseSensitive" : false,
+        "type" : "nodes+edges",
+        "anyMatch" : true,
+        "columnName" : "Choose column..."
+      }
+    } ]
+  } ]
+}, {
+  "name" : "CriterioA-PG",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "IS",
+        "criterion" : true,
+        "caseSensitive" : false,
+        "type" : "nodes",
+        "anyMatch" : true,
+        "columnName" : "CriterioA-PG"
+      }
+    } ]
+  } ]
+}, {
+  "name" : "Edges_from_PIK3CA",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.CompositeFilter",
+      "parameters" : {
+        "type" : "ANY"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:5241",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:4914",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:1956 hsa:2064 hsa:2321 hsa:2324 hsa:3480 hsa:3791 hsa:4233 hsa:5156 hsa:5159",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:3791",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:3480",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:3633 hsa:4952 hsa:56623 hsa:8867 hsa:8871",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:1956 hsa:2064 hsa:3480 hsa:3643",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      } ]
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "hsa:5290 hsa:5291 hsa:5293 hsa:5295 hsa:5296 hsa:8503",
+        "caseSensitive" : false,
+        "type" : "edges",
+        "anyMatch" : true,
+        "columnName" : "name"
+      }
+    } ]
+  } ]
+}, {
+  "name" : "Edges_from_SRC",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.CompositeFilter",
+      "parameters" : {
+        "type" : "ANY"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:7442",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:3791",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:998",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:2099 hsa:2100",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      } ]
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "hsa:6714",
+        "caseSensitive" : false,
+        "type" : "edges",
+        "anyMatch" : true,
+        "columnName" : "name"
+      }
+    } ]
+  } ]
+}, {
+  "name" : "Edges_from_GNG2",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.CompositeFilter",
+      "parameters" : {
+        "type" : "ANY"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:773 hsa:774 hsa:775 hsa:776 hsa:778 hsa:779",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:773 hsa:774",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:773",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:1129",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:3350 hsa:3351 hsa:3352 hsa:3354 hsa:3355",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:2550 hsa:9568",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:1132",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      } ]
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "hsa:10681 hsa:2770 hsa:2771 hsa:2773 hsa:2775 hsa:2782 hsa:2783 hsa:2784",
+        "caseSensitive" : false,
+        "type" : "edges",
+        "anyMatch" : true,
+        "columnName" : "name"
+      }
+    } ]
+  } ]
+}, {
+  "name" : "Edges_from_SRC_cluster",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.CompositeFilter",
+      "parameters" : {
+        "type" : "ANY"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:2778",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:25759 hsa:399694 hsa:53358 hsa:6464",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:3265 hsa:3845 hsa:4893",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      } ]
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "hsa:6714",
+        "caseSensitive" : false,
+        "type" : "edges",
+        "anyMatch" : true,
+        "columnName" : "name"
+      }
+    } ]
+  } ]
+}, {
+  "name" : "Edges_from_MAPK1_cluster",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.CompositeFilter",
+      "parameters" : {
+        "type" : "ANY"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:6198 hsa:6199",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:2885",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:3265 hsa:3845 hsa:4893",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:27040",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:2770 hsa:2771 hsa:2773",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      } ]
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "hsa:5594 hsa:5595",
+        "caseSensitive" : false,
+        "type" : "edges",
+        "anyMatch" : true,
+        "columnName" : "name"
+      }
+    } ]
+  } ]
+}, {
+  "name" : "Edges_from_PRKCA_cluster",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.CompositeFilter",
+      "parameters" : {
+        "type" : "ANY"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:22800 hsa:22808 hsa:3265 hsa:3845 hsa:4893 hsa:6237",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      } ]
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "hsa:5578 hsa:5579 hsa:5582",
+        "caseSensitive" : false,
+        "type" : "edges",
+        "anyMatch" : true,
+        "columnName" : "name"
+      }
+    } ]
+  } ]
+}, {
+  "name" : "Edges_from_PIK3CA_cluster",
+  "transformers" : [ {
+    "id" : "org.cytoscape.CompositeFilter",
+    "parameters" : {
+      "type" : "ALL"
+    },
+    "transformers" : [ {
+      "id" : "org.cytoscape.CompositeFilter",
+      "parameters" : {
+        "type" : "ANY"
+      },
+      "transformers" : [ {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:3635 hsa:3636",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:3633 hsa:4952 hsa:56623 hsa:8867 hsa:8871",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:2549",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:3265 hsa:3845 hsa:4893",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:22800 hsa:22808 hsa:3265 hsa:3845 hsa:4893 hsa:6237",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:7535",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:27040",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:113026 hsa:23236 hsa:51196 hsa:5330 hsa:5331 hsa:5332 hsa:5333 hsa:5335 hsa:5336 hsa:84812",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:23396 hsa:8394 hsa:8395",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:5728",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:5305 hsa:79837 hsa:8396",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:55529 hsa:90809",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      }, {
+        "id" : "org.cytoscape.ColumnFilter",
+        "parameters" : {
+          "predicate" : "CONTAINS",
+          "criterion" : "hsa:2770 hsa:2771 hsa:2773",
+          "caseSensitive" : false,
+          "type" : "edges",
+          "anyMatch" : true,
+          "columnName" : "name"
+        }
+      } ]
+    }, {
+      "id" : "org.cytoscape.ColumnFilter",
+      "parameters" : {
+        "predicate" : "CONTAINS",
+        "criterion" : "hsa:5290 hsa:5291 hsa:5293 hsa:5295 hsa:5296 hsa:8503",
+        "caseSensitive" : false,
+        "type" : "edges",
+        "anyMatch" : true,
+        "columnName" : "name"
+      }
+    } ]
+  } ]
+} ]

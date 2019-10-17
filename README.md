@@ -38,8 +38,8 @@ En la carpeta ***Networks***, se encuentra una subcarpeta por cada subgrafo gene
 - *Red con los pathways del contexto molecular de la endometriosis*: Pathways.cys
 
 **Información sobre los filtros utilizados para la explotación del modelo** (carpeta FilterAnalysis)
-- *Filtro para estudio de proximidad*:
-- *Filtro para estudio de farmacológico*:
+- *Filtro para estudio de proximidad*: Disease_conectado_a_al_menos_2_TP y TS_conectados_a_al_menos_2_TP_y_al_menos_1_Disease
+- *Filtro para estudio farmacológico*: Drogas_con_degree >= 35_en_final_y_>= 8_en_directa-TD
 
 En la carpeta ***Scripts***, se encuentran:  
 **Todos los programas realizados para obtener los resultados del proyecto**
